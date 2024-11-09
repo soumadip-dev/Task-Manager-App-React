@@ -1,59 +1,40 @@
-# TODO App
+# Task Management App
 
-This project is a simple TODO app bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and intuitive task management application built with React for adding and managing TODOs.
 
-## Available Scripts
+![Task Management App](https://github.com/soumadip-dev/JS-learning-30Days-challenge/blob/main/27_project_task_management_app/Screenshot.png)
 
-In the project directory, you can run:
+## Features
+- Add new TODOs
+- View a list of TODOs
+- Edit existing TODOs
+- Delete TODOs
+- Filter TODOs by status (All, Pending, Completed)
 
-### `npm start`
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/soumadip-dev/task-management-app.git
+   ```
 
-Starts the TODO app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project folder and install dependencies:
+   ```bash
+   npm install
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. To run the app locally, use:
+   ```bash
+   npm start
+   ```
 
-### `npm test`
+## Usage
+1. **Add a New TODO:** Enter your task in the input field and click the "Add Task" button or press Enter.
+2. **Edit a TODO:** Click the "Edit" button next to the task you want to modify and enter the new task value in the prompt.
+3. **Delete a TODO:** Click the "Delete" button next to the task you want to remove.
+4. **Mark as Completed/Reset:** Click the "Completed" button to mark a task as completed, or the "Reset" button to revert its status.
+5. **Filter TODOs:** Use the filter buttons to view tasks based on their completion status (All, Pending, Completed).
 
-Launches the test runner in interactive watch mode to test your TODO app.\
-See [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the TODO app for production in the `build` folder.\
-This bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and filenames include hashes.\
-Your app is ready for deployment!
-
-See [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: This action is irreversible. Once you `eject`, you cannot go back!**
-
-You can `eject` at any time if you want full control over the build configuration. This removes the single build dependency from your project and copies all configurations directly into your project so you can customize them as needed.
-
-You don’t need to use `eject` unless you want advanced customization. The default configuration is suitable for most TODO app deployments.
-
-## Learn More
-
-To learn more about Create React App, check out the [documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-For learning React, refer to the [React documentation](https://reactjs.org/).
-
-### Additional Information
-
-- **[Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)**: Organize your code for better performance.
-- **[Analyzing Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)**: Optimize app performance by analyzing the size of your app's bundles.
-- **[Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)**: Enable offline capabilities for your app.
-- **[Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)**: Customize your configuration settings.
-
-### Deployment
-
-See [deployment instructions](https://facebook.github.io/create-react-app/docs/deployment) to publish your TODO app.
-
-### Troubleshooting `npm run build`
-
-If `npm run build` fails to minify, check the [troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
+## Component Overview
+- **App.js:** The main component that handles the rendering of TODOs, adding, editing, deleting, and filtering tasks.
+- **Task.js:** A single TODO item component with functionality for marking as completed, editing, and deleting the task.
+- **Filter.js:** A component that handles filtering the TODOs based on their status.
