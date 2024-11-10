@@ -37,4 +37,4 @@ A simple and intuitive task management application built with React for adding a
 ## Component Overview
 - **App.js:** The main component that handles the rendering of TODOs, adding, editing, deleting, and filtering tasks.
 - **Task.js:** A single TODO item component with functionality for marking as completed, editing, and deleting the task.
-- **Filter.js:** A component that handles filtering the TODOs based on their status .
+- **Filter.js:** A component that handles filtering the TODOs based on their status.
