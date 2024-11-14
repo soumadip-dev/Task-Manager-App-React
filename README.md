@@ -2,7 +2,7 @@
 
 A simple and intuitive task management application built with React for adding and managing TODOs.
 
- ![Task Management App](https://github.com/soumadip-dev/JS-learning-30Days-challenge/blob/main/27_project_task_management_app/Screenshot.pn)
+ ![Task Management App](https://github.com/soumadip-dev/JS-learning-30Days-challenge/blob/main/27_project_task_management_app/Screenshot.png)
 
 ## Features
 - Add new TODOs
